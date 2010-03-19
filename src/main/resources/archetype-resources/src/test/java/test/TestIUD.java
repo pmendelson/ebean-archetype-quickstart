@@ -1,9 +1,9 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package org.avaje.demo.test;
+package ${package}.test;
 
-import ${package}.BasicEntity;
+import ${package}.model.BasicEntity;
 import org.junit.Assert;
 import org.junit.Test;
 

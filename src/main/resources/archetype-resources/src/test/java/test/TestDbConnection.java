@@ -1,7 +1,7 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package org.avaje.demo.test;
+package ${package}.test;
 import junit.framework.Assert;
 
 import org.junit.Test;
