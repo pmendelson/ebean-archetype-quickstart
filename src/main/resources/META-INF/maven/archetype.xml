@@ -1,41 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><archetype>
   <id>simple-maven-demo</id>
   <sources>
-    <source>src\main\java\org\avaje\demo\test\model\BasicEntity.java</source>
+    <source>src/main/java/model/BasicEntity.java</source>
   </sources>
   <testSources>
-    <source>src\test\java\org\avaje\demo\test\TestDbConnection.java</source>
-    <source>src\test\java\org\avaje\demo\test\TestIUD.java</source>
+    <source>src/test/java/test/TestDbConnection.java</source>
+    <source>src/test/java/test/TestIUD.java</source>
   </testSources>
   <resources>
-    <resource>.classpath</resource>
-    <resource>.git\config</resource>
-    <resource>.git\description</resource>
-    <resource>.git\HEAD</resource>
-    <resource>.git\hooks\applypatch-msg.sample</resource>
-    <resource>.git\hooks\commit-msg.sample</resource>
-    <resource>.git\hooks\post-commit.sample</resource>
-    <resource>.git\hooks\post-receive.sample</resource>
-    <resource>.git\hooks\post-update.sample</resource>
-    <resource>.git\hooks\pre-applypatch.sample</resource>
-    <resource>.git\hooks\pre-commit.sample</resource>
-    <resource>.git\hooks\pre-rebase.sample</resource>
-    <resource>.git\hooks\prepare-commit-msg.sample</resource>
-    <resource>.git\hooks\update.sample</resource>
-    <resource>.git\index</resource>
-    <resource>.git\info\exclude</resource>
-    <resource>.git\logs\HEAD</resource>
-    <resource>.git\logs\refs\heads\master</resource>
-    <resource>.git\objects\pack\pack-1f3b7adf5e490a4d5472340b4bf88c9e29492639.idx</resource>
-    <resource>.git\objects\pack\pack-1f3b7adf5e490a4d5472340b4bf88c9e29492639.pack</resource>
-    <resource>.git\packed-refs</resource>
-    <resource>.git\refs\heads\master</resource>
-    <resource>.git\refs\remotes\origin\HEAD</resource>
-    <resource>.project</resource>
-    <resource>README</resource>
   </resources>
   <testResources>
-    <resource>src\test\resources\ebean.properties</resource>
-    <resource>src\test\resources\orm.xml</resource>
+    <resource>src/test/resources/ebean.properties</resource>
+    <resource>src/test/resources/orm.xml</resource>
   </testResources>
 </archetype>
